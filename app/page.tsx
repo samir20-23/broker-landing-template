@@ -14,8 +14,22 @@ export default function Page() {
           e.currentTarget.playbackRate = 0.4
         }}
       >
-        <source src="/videobackground/5.mp4" type="video/mp4" />
+        <source src="/videoBackground/4.mp4" />
       </video>
+
+      <nav className="navBar">
+        <div className="logo">Liquid Brokers</div>
+        <div className="menu">
+          <a href="" className="about" >About</a>
+          <a href="" className="trading" >Trading</a>
+          <a href="" className="contant" >Contact</a>
+          <a href="" className="faq" >FAQ</a>
+        </div>
+        <div className="register">
+          <button className="Login">Login</button>
+          <button className="Signup">Sign Up</button>
+        </div>
+      </nav>
     </div>
   )
 }
