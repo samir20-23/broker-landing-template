@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainApp{
+    width:100%;
+    height: 90.5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+
+}
+.mainApp .videoBackground{
+    position: absolute;
+    width: 100%; 
+    scrollbar-width: none;
+    overflow: auto; 
+    
+
+}
